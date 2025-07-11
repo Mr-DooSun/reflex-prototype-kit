@@ -50,14 +50,6 @@ def sidebar() -> rx.Component:
                 ),
                 align=rx.cond(SidebarState.show_sidebar, "center", "top"),
             ),
-            rx.box(
-                rx.text(
-                    "test",
-                    width="100%",
-                    height="100%"
-                ),
-                padding="1rem",
-            ),
             height="100vh",
         ),
         border_right="1px solid #e0e0e0",
